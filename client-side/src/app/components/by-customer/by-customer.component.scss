@@ -1,0 +1,42 @@
+form {
+    text-align: center;
+    margin-top: 5%;
+    justify-items: center;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Microsoft Sans Serif';
+
+    select {
+        padding: 5px;
+        width: 20%;
+        margin-bottom: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        background-color: rgb(14, 247, 96);
+        color: #080808;
+        font-size: large;
+        font-weight: bolder;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#receipt{
+    padding-right: 15%;
+    margin-bottom: 2%;
+}

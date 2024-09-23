@@ -1,0 +1,23 @@
+
+<div *ngIf="receipt !==undefined" id="receipt">
+     <div id="header">receipt</div>
+     <br>
+    <label>receiptNumber: </label>
+    <span [innerText]="receipt.receiptNumber"></span>
+    <br><br>
+    <app-customer  [customer]="receipt.customer">
+    </app-customer>
+    <br>
+    <label>sum: </label>
+    <span [innerText]="receipt.sum" id="sum"></span>
+    <br><br>
+    <label>paymentMethods: </label>
+    <span [innerText]="receipt.paymentMethods"></span>
+    <br><br>
+    <label>date: </label>
+    <span [innerText]="receipt.date|date"></span>
+    <br><br>
+    <label>description: </label>
+    <span [innerText]="receipt.description"></span>
+    <br><br>
+  </div>
